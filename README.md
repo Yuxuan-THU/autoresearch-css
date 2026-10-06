@@ -1,5 +1,7 @@
 # AutoResearch for Computational Social Science
 
+[中文版 README](README.zh-CN.md)
+
 > Give it a dataset and a vague research direction. Let it look for something worth checking.
 
 This is an early prototype of an AutoResearch loop for computational social science.
@@ -35,8 +37,6 @@ It is intentionally boring. The first version should make the research trail ins
 ## Run it
 
 ```bash
-cd autoresearch_css
-
 python -m autoresearch_css.cli examples/demo.csv \
   --direction "国家信息能力与公众信任" \
   --count 10 \
@@ -125,14 +125,15 @@ The default should be metadata and feasibility checks first. Full downloads, sen
 ## Project layout
 
 ```text
-autoresearch_css/
+.
 ├── autoresearch_css/
 │   ├── core.py        # profiling, question generation, scoring, manifest
 │   └── cli.py         # command-line entry point
 ├── examples/
 │   └── demo.csv
 ├── pyproject.toml
-└── README.md
+├── README.md
+└── README.zh-CN.md
 ```
 
 ## Status
