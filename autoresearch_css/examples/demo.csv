@@ -1,0 +1,7 @@
+country,information_capacity,transparency,trust,region
+A,0.2,0.3,0.4,north
+B,0.8,0.7,0.9,north
+C,0.4,0.2,0.5,south
+D,0.7,0.8,0.8,south
+E,0.3,0.4,0.45,north
+F,0.9,0.9,0.95,south

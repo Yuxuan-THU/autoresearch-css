@@ -1,0 +1,8 @@
+[project]
+name = "autoresearch-css"
+version = "0.1.0"
+description = "Evidence-first AutoResearch for computational social science"
+requires-python = ">=3.10"
+
+[project.scripts]
+autoresearch-css = "autoresearch_css.cli:main"
